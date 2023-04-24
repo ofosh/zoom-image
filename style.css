@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'montserrat';
+}
+
+body{
+  background: linear-gradient(to right, hsl(200, 100%, 50%), hsl(175, 100%, 50%));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.image{
+  width: 400px;
+  height: 400px;
+  box-shadow: -1px 5px 15px #403a3a;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 10px;
+  margin: 10px;
+}
+.btn-out {
+  padding: 8px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-weight: 600;
+}
+.btn-in {
+  padding: 8px;
+  border: none;
+  background-color: green;
+  color: white;
+  font-weight: 600;
+}
